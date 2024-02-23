@@ -1,0 +1,64 @@
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-cell {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.flex-cell:nth-child(2) {
+    flex: 2;
+}
+
+.search {
+    display: block;
+    margin: 10px auto;
+}
+
+.logo {
+    display: block;
+    max-width: 30%;
+    max-height: 25%;
+}
+
+.college-block {
+    display: flex;
+}
+
+.heading {
+    background-color: rgb(159, 196, 196);
+    color: aliceblue;
+    font-weight: 800;
+    font-size: large;
+}
+
+.other-detail {
+    margin-left: 8px;
+}
+
+.box {
+    width: 130px;
+    background-color: rgb(242, 176, 114, 0.3);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text {
+    color: green;
+}
+
+.clg-name {
+    color: rgb(38, 128, 192);
+}
+
+.course {
+    color: rgb(196, 94, 31);
+}
